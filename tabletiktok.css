@@ -1,0 +1,36 @@
+.tiktok{
+	border-collapse: collapse;
+	width: 300px;
+	height: 300px;
+	border: none
+}
+
+
+.tiktok td{
+	border: 1px solid green;
+	width: 100px;
+	height: 100px;
+}
+
+.tiktok tr:first-child td{
+	border-top: none;
+}
+
+.tiktok tr:last-child td{
+	border-bottom: none;
+}
+
+.tiktok tr td:first-child{
+	border-left: none;
+}
+
+.tiktok tr td:last-child{
+	border-right: none;
+}
+		
+.textLabel {
+	text-align: center;
+	font-size: 100px;
+}
+
+		
